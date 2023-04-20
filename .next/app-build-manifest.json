@@ -1,0 +1,54 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(default)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(default)/page.js"
+    ],
+    "/(default)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(default)/layout.css",
+      "static/chunks/app/(default)/layout.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about/page.js"
+    ],
+    "/about/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/about/layout.css",
+      "static/chunks/app/about/layout.js"
+    ],
+    "/pinCode/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/pinCode/page.js"
+    ],
+    "/pinCode/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/pinCode/layout.css",
+      "static/chunks/app/pinCode/layout.js"
+    ],
+    "/bankCode/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/bankCode/page.js"
+    ],
+    "/bankCode/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/bankCode/layout.css",
+      "static/chunks/app/bankCode/layout.js"
+    ]
+  }
+}
